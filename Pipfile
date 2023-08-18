@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+prefect = "*"
+httpx = "*"
+pygithub = "*"
+pandas = "*"
+datetime = "*"
+nbconvert = "*"
+matplotlib = "*"
+python-dotenv = "*"
+jupytext = "*"
+ipykernel = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
